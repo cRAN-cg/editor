@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/monaco-editor/min/vs/editor/editor.main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/monaco-editor/min/vs/loader.js",
+              "./node_modules/monaco-editor/min/vs/editor/editor.main.nls.js",
+              "./node_modules/monaco-editor/min/vs/editor/editor.main.js"
+            ]
           },
           "configurations": {
             "production": {
